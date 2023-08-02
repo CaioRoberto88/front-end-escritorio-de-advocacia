@@ -1,0 +1,58 @@
+body {
+  font-family: "Caveat", cursive;
+  font-family: "Open Sans", sans-serif;
+  min-width: 375px;
+}
+
+p {
+  letter-spacing: 0.5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header > .img-fluid {
+  height: 600px;
+  width: 100%;
+}
+
+h1 {
+  top: 15%;
+  left: 15%;
+  color: #fff;
+  font-size: 46px;
+}
+
+.list-group .list-group-item {
+  color: #fff;
+  background-color: #000;
+}
+
+.list-group-horizontal .list-group-item {
+  margin-bottom: 10px;
+}
+
+.carousel-inner img {
+  height: 500px;
+  border-radius: 5px;
+}
+
+footer {
+  height: 100%;
+}
+
+
+/* RESPONSIVIDADE */
+
+
+@media (max-width: 992px) {
+  .navbar-brand > img {
+   height: 50px;
+   width: 50px;
+  }
+
+  .align-middle {
+    font-size: 18px;
+  }
+}
